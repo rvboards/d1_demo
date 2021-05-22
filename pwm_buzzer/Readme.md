@@ -15,7 +15,7 @@ Test script pwm_buzzer.sh
           2. 10000    ==>   100Khz
           3. 100000   ==>   10Khz
           4. 1000000  ==>   1Khz
-  3. Third parameter (150000) : Specifies the duty cycle of the PWM
+     3. Third parameter (150000) : Specifies the duty cycle of the PWM
 
 
 
