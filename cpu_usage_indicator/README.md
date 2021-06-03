@@ -24,3 +24,129 @@
 - 程序大小的4个值分别是 size 输出的 text 、data、bss、dec 字段。
 - C、C++、Rust 程序是动态链接的，Go 程序不支持动态链接，是静态链接的。
 - 编译时间，指的是在 RVBoards D1 上本地编译所需要的时间，不是交叉编译。Rust 的编译时间不包括依赖库的编译时间。
+
+## 获取源代码
+
+#### 安装 git
+```
+sudo apt-get install git
+```
+
+#### 克隆代码
+```
+git clone https://gitee.com/zoomdy/rvboards_d1_cpu_usage_indicator
+```
+
+## 编译/执行
+
+#### C
+系统自带编译器，不需要手动安装。
+
+编译：
+```
+cd rvboards_d1_cpu_usage_indicator/c
+make
+```
+
+执行：
+```
+sudo ./cpu_usage_indicator
+```
+
+#### C++
+系统自带编译器，不需要手动安装。
+
+编译：
+```
+cd rvboards_d1_cpu_usage_indicator/c++
+make
+```
+
+执行：
+```
+sudo ./cpu_usage_indicator
+```
+
+#### Rust
+安装 rust 和 cargo：
+```
+sudo apt-get install cargo
+```
+
+编译，会自动下载编译依赖库，如果下载很慢，那么参考 [Rust Crates 镜像使用帮助](https://lug.ustc.edu.cn/wiki/mirrors/help/rust-crates/) 使用国内镜像，`cargo -V` 查看 cargo 版本：
+```
+cd rvboards_d1_cpu_usage_indicator/rust
+cargo build
+```
+
+执行：
+```
+sudo ./target/debug/cpu_usage_indicator
+```
+
+#### Go
+安装 Go：
+```
+sudo apt-get install golang-go
+```
+
+编译：
+```
+cd rvboards_d1_cpu_usage_indicator/go
+make
+```
+
+执行：
+```
+sudo ./cpu_usage_indicator
+```
+
+#### Java
+安装 JDK：
+```
+sudo apt-get install default-jdk
+```
+
+编译，编译大约需要2分钟时间，耐心等待：
+```
+cd rvboards_d1_cpu_usage_indicator/java
+make
+```
+
+执行：
+```
+sudo ./cpu_usage_indicator
+```
+
+#### Python
+不记得预装系统是不是已经默认安装了，安装 Python3：
+```
+sudo apt-get install python3
+```
+
+执行：
+```
+sudo ./cpu_usage_indicator.py
+```
+
+#### NodeJS
+目前（2021-06-03），Debain 软件库还未包括 nodejs，不能通过 apt-get 安装，需要手动安装，所幸 nodejs 移植团队有编译好的二进制包，下载页面：[https://github.com/v8-riscv/node/releases](https://github.com/v8-riscv/node/releases) 。下载 node-v14.8.0-linux-riscv64.tar.xz ，解压到 /opt 目录下。
+
+执行 cpu_usage_indicator：
+
+```
+cd rvboards_d1_cpu_usage_indicator/nodejs
+sudo /opt/node-v14.8.0-linux-riscv64/bin/node cpu_usage_indicator.js
+```
+
+#### MATLAB
+安装 MATLAB 的开源替代 GNU Octave：
+```
+sudo apt-get install octave
+```
+
+执行：
+```
+sudo ./cpu_usage_indicator
+```
+
