@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var Led = require('./led');
 var ProcStat = require('./proc_stat');
 
