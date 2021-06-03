@@ -1,0 +1,2 @@
+#!/bin/sh
+octave cpu_usage_indicator.m 
