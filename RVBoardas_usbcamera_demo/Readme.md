@@ -2,11 +2,11 @@
 
 ## USB摄像头kernel配置
 
-![USB摄像头配置](G:\micro_programing\D1\img\USB摄像头\USB摄像头配置.png)
+![USB摄像头配置](./USB摄像头配置.png)
 
-![USB2](G:\micro_programing\D1\img\USB摄像头\USB2.png)
+![USB2](./USB2.png)
 
-![USB3](G:\micro_programing\D1\img\USB摄像头\USB3.png)
+![USB3](./USB3.png)
 
 ## 需要的驱动文件：
 
