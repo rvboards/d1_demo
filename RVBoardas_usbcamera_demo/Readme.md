@@ -2,11 +2,9 @@
 
 ## USB摄像头kernel配置
 
-<div align=center>![USB摄像头配置](./USB摄像头配置.png)
-
-<div align=center>![USB2](./USB2.png)
-
-<div align=center>![USB3](./USB3.png)
+<img src="./USB摄像头配置.png" alt="USB摄像头配置" style="zoom: 100%;" />
+<img src="./USB2.png" alt="USB摄像头配置" style="zoom: 100%;" />
+<img src="./USB3.png" alt="USB摄像头配置" style="zoom: 100%;" />
 
 ## 需要的驱动文件：
 
