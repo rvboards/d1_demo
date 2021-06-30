@@ -1,7 +1,7 @@
-### RVBoards D1 RGB炫彩点灯dome
+### RVBoards D1 RGB炫彩点灯demo
 
 
-跑在 RVBoards D1 单板机上的RGB炫彩点灯dome。读 /proc/stat 获取 CPU 使用率，写 /sys/class/leds/sunxi_led0[rgb]/brightness 点亮RGB灯
+跑在 RVBoards D1 单板机上的RGB炫彩点灯demo。读 /proc/stat 获取 CPU 使用率，写 /sys/class/leds/sunxi_led0[rgb]/brightness 点亮RGB灯
 
 基于大佬的  [RVBoards D1 CPU 使用率指示器](http://gitee.com/zoomdy/rvboards_d1_cpu_usage_indicator/tree/master)  修改而来，有兴趣的可以看看。
 
